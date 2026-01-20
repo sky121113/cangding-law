@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="蒼鼎國際法律事務所律師團隊 - 詹明潔主持律師、周穎宏法律顧問。台大法律背景、資深檢察官經歷。">
+    <meta name="keywords" content="台中女律師,台大律師,檢察官律師,詹明潔律師,周穎宏顧問">
+
+    <title>律師團隊 | 蒼鼎國際法律事務所</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'forest': '#1B3A2F',
+                        'gold': '#C5A572',
+                        'gold-light': '#D4B896',
+                        'navy': '#0F172A',
+                        'ivory': '#F8FAFC',
+                    },
+                    fontFamily: {
+                        'serif': ['EB Garamond', 'Noto Serif TC', 'serif'],
+                        'sans': ['Lato', 'Noto Sans TC', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-ivory font-sans text-navy">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-forest shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <svg class="w-10 h-10 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                    <div>
+                        <span class="text-gold font-serif text-xl font-semibold">蒼鼎國際法律事務所</span>
+                        <span class="hidden sm:block text-gold-light text-xs tracking-widest">CANGDING INTERNATIONAL LAW
+                            FIRM</span>
+                    </div>
+                </a>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-white hover:text-gold transition-colors duration-200">首頁</a>
+                    <a href="about.html" class="text-white hover:text-gold transition-colors duration-200">關於蒼鼎</a>
+                    <a href="team.html" class="text-gold">律師團隊</a>
+                    <a href="services.html" class="text-white hover:text-gold transition-colors duration-200">服務項目</a>
+                    <a href="contact.html"
+                        class="bg-gold text-forest px-6 py-2 rounded hover:bg-gold-light transition-colors duration-200 cursor-pointer">預約諮詢</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-white p-2 cursor-pointer">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-forest border-t border-gold/20">
+            <div class="px-4 py-4 space-y-3">
+                <a href="index.html" class="block text-white hover:text-gold py-2">首頁</a>
+                <a href="about.html" class="block text-white hover:text-gold py-2">關於蒼鼎</a>
+                <a href="team.html" class="block text-gold py-2">律師團隊</a>
+                <a href="services.html" class="block text-white hover:text-gold py-2">服務項目</a>
+                <a href="contact.html" class="block bg-gold text-forest px-4 py-2 rounded text-center">預約諮詢</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-16 bg-forest">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="font-serif text-4xl md:text-5xl text-white mb-4">
+                律師<span class="text-gold">團隊</span>
+            </h1>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+                專業背景、豐富經驗，為您提供最優質的法律服務
+            </p>
+        </div>
+    </section>
+
+    <!-- Lawyer 1: 詹明潔 -->
+    <section class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 gap-12">
+                <!-- Photo -->
+                <div class="lg:col-span-1">
+                    <div class="aspect-[3/4] bg-gray-200 rounded-xl shadow-xl overflow-hidden sticky top-28">
+                        <div
+                            class="w-full h-full bg-gradient-to-b from-forest/10 to-gold/10 flex items-center justify-center">
+                            <span class="text-gray-500">律師照片</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <h2 class="font-serif text-3xl md:text-4xl text-forest">詹明潔</h2>
+                        <span class="ml-4 bg-gold text-forest px-4 py-1 rounded-full text-sm font-semibold">主持律師</span>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="mb-8">
+                        <h3 class="flex items-center text-xl text-forest font-semibold mb-4">
+                            <svg class="w-6 h-6 mr-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                                <path
+                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                            學歷
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 mr-3 text-gold mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <span>國立台灣大學 政治學系 國際關係組學士</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 mr-3 text-gold mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <span>國立台灣大學 法律學系 司法組輔系</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- License -->
+                    <div class="mb-8">
+                        <h3 class="flex items-center text-xl text-forest font-semibold mb-4">
+                            <svg class="w-6 h-6 mr-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                            </svg>
+                            專業證照
+                        </h3>
+                        <div class="inline-flex items-center bg-forest text-white px-4 py-2 rounded-lg">
+                            <svg class="w-5 h-5 mr-2 text-gold" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd"
+                                    d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            專門職業及技術人員高等考試 律師考試通過
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div>
+                        <h3 class="flex items-center text-xl text-forest font-semibold mb-4">
+                            <svg class="w-6 h-6 mr-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            經歷
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">臺中市政府法律扶助顧問</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">苗栗地方法院民事調解委員</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">苗栗縣政府勞資爭議仲裁委員</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">苗栗縣政府勞資爭議調解委員</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">經濟部產業園區管理局臺中分局勞資爭議仲裁人</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">豐逸國際法律事務所律師</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">德尚法律事務所律師</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">臺中立法委員服務處法律諮詢義務律師</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">民間企業法律顧問</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">立法院法案助理</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="h-px bg-gradient-to-r from-transparent via-gold to-transparent"></div>
+
+    <!-- Lawyer 2: 周穎宏 -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-3 gap-12">
+                <!-- Photo -->
+                <div class="lg:col-span-1">
+                    <div class="aspect-[3/4] bg-gray-200 rounded-xl shadow-xl overflow-hidden sticky top-28">
+                        <div
+                            class="w-full h-full bg-gradient-to-b from-forest/10 to-gold/10 flex items-center justify-center">
+                            <span class="text-gray-500">律師照片</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <h2 class="font-serif text-3xl md:text-4xl text-forest">周穎宏</h2>
+                        <span class="ml-4 bg-forest text-gold px-4 py-1 rounded-full text-sm font-semibold">法律顧問</span>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="mb-8">
+                        <h3 class="flex items-center text-xl text-forest font-semibold mb-4">
+                            <svg class="w-6 h-6 mr-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                                <path
+                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                            </svg>
+                            學歷
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 mr-3 text-gold mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <span>美國哈佛大學訪問學者</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-5 h-5 mr-3 text-gold mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <span>美國西雅圖華盛頓大學法學碩士</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Experience -->
+                    <div>
+                        <h3 class="flex items-center text-xl text-forest font-semibold mb-4">
+                            <svg class="w-6 h-6 mr-3 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            經歷
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部司法官訓練所第26期結業</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部司法官學院主任秘書</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部行政執行署臺中行政執行處處長</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部行政執行署臺南行政執行處處長</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部行政執行署嘉義行政執行處處長</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部行政執行署宜蘭行政執行處處長</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">臺灣高等檢察署檢察官</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">臺灣高等檢察署臺中檢察分署檢察官</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">臺灣臺中地方檢察署檢察官</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">臺灣高雄地方檢察署檢察官</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">行政院菁英領導班</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">法務部模範公務員</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">國立中興大學兼任講師</p>
+                            </div>
+                            <div class="bg-ivory p-4 rounded-lg shadow-sm">
+                                <p class="text-gray-700">國立中正大學兼任講師</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-forest">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-serif text-2xl md:text-3xl text-white mb-6">
+                與專業律師團隊<span class="text-gold">面對面諮詢</span>
+            </h2>
+            <a href="contact.html"
+                class="inline-block bg-gold text-forest px-8 py-4 rounded font-semibold text-lg hover:bg-gold-light transition-colors duration-200 cursor-pointer">
+                立即預約諮詢
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-forest py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <svg class="w-8 h-8 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                        <span class="text-gold font-serif text-xl">蒼鼎國際法律事務所</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        用心傾聽及陪伴您走過這段過程。
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-gold font-semibold mb-4">快速連結</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">關於蒼鼎</a>
+                        </li>
+                        <li><a href="team.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">律師團隊</a>
+                        </li>
+                        <li><a href="services.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">服務項目</a>
+                        </li>
+                        <li><a href="contact.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">預約諮詢</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-gold font-semibold mb-4">聯絡資訊</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li>(04) 2254-8977</li>
+                        <li>LINE: @118lebpm</li>
+                        <li>台中市西屯區市政北二路282號14樓之1</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gold/20 pt-8 text-center">
+                <p class="text-gray-500 text-sm">
+                    © 2025 蒼鼎國際法律事務所 CangDing International Law Firm. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

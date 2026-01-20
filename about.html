@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="關於蒼鼎國際法律事務所 - 擁有堅強律師團隊，專精於各類民事、刑事、家事案件。台中最專業的律師事務所。">
+    <meta name="keywords" content="台中律師,蒼鼎律師事務所,法律顧問,台中女律師,台大律師">
+
+    <title>關於蒼鼎 | 蒼鼎國際法律事務所</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;500;600;700&family=Ma+Shan+Zheng&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'forest': '#1B3A2F',
+                        'gold': '#C5A572',
+                        'gold-light': '#D4B896',
+                        'navy': '#0F172A',
+                        'ivory': '#F8FAFC',
+                    },
+                    fontFamily: {
+                        'serif': ['EB Garamond', 'Noto Serif TC', 'serif'],
+                        'sans': ['Lato', 'Noto Sans TC', 'sans-serif'],
+                        'handwriting': ['Ma Shan Zheng', 'cursive'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-ivory font-sans text-navy">
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-forest shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center space-x-3">
+                    <svg class="w-10 h-10 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                    <div>
+                        <span class="text-gold font-serif text-xl font-semibold">蒼鼎國際法律事務所</span>
+                        <span class="hidden sm:block text-gold-light text-xs tracking-widest">CANGDING INTERNATIONAL LAW
+                            FIRM</span>
+                    </div>
+                </a>
+
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-white hover:text-gold transition-colors duration-200">首頁</a>
+                    <a href="about.html" class="text-gold">關於蒼鼎</a>
+                    <a href="team.html" class="text-white hover:text-gold transition-colors duration-200">律師團隊</a>
+                    <a href="services.html" class="text-white hover:text-gold transition-colors duration-200">服務項目</a>
+                    <a href="contact.html"
+                        class="bg-gold text-forest px-6 py-2 rounded hover:bg-gold-light transition-colors duration-200 cursor-pointer">預約諮詢</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden text-white p-2 cursor-pointer">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-forest border-t border-gold/20">
+            <div class="px-4 py-4 space-y-3">
+                <a href="index.html" class="block text-white hover:text-gold py-2">首頁</a>
+                <a href="about.html" class="block text-gold py-2">關於蒼鼎</a>
+                <a href="team.html" class="block text-white hover:text-gold py-2">律師團隊</a>
+                <a href="services.html" class="block text-white hover:text-gold py-2">服務項目</a>
+                <a href="contact.html" class="block bg-gold text-forest px-4 py-2 rounded text-center">預約諮詢</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="pt-32 pb-16 bg-forest">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="font-serif text-4xl md:text-5xl text-white mb-4">
+                關於<span class="text-gold">蒼鼎</span>
+            </h1>
+            <p class="text-gray-300 text-lg max-w-2xl mx-auto">
+                專業、信任、溫暖 — 您值得託付的法律夥伴
+            </p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="py-20 bg-ivory">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-20">
+                <div>
+                    <h2 class="font-serif text-3xl text-forest mb-6">
+                        堅強的<span class="text-gold">律師團隊</span>
+                    </h2>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        蒼鼎國際法律事務所擁有堅強律師團隊，具有資深司法官或資深律師背景，專精於各類民事、刑事、家事案件，更是多間知名企業指定之法律顧問。
+                    </p>
+                    <p class="text-gray-700 text-lg leading-relaxed">
+                        力求站在客戶的角度，為客戶尋求最好的解決方式以及訴訟策略。
+                    </p>
+                </div>
+                <div class="relative">
+                    <div class="aspect-[4/3] bg-gray-200 rounded-xl shadow-xl overflow-hidden">
+                        <div
+                            class="w-full h-full bg-gradient-to-br from-forest/20 to-gold/20 flex items-center justify-center">
+                            <span class="text-gray-500">辦公室照片</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quote Section -->
+            <div
+                class="bg-white rounded-2xl shadow-lg p-8 md:p-12 text-center max-w-4xl mx-auto relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-32 h-32 bg-gold/10 rounded-full -translate-x-1/2 -translate-y-1/2">
+                </div>
+                <div
+                    class="absolute bottom-0 right-0 w-48 h-48 bg-forest/5 rounded-full translate-x-1/2 translate-y-1/2">
+                </div>
+
+                <svg class="w-12 h-12 text-gold/30 mx-auto mb-6" fill="currentColor" viewBox="0 0 24 24">
+                    <path
+                        d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                </svg>
+
+                <p class="font-handwriting text-2xl md:text-3xl text-forest leading-relaxed mb-6 relative z-10">
+                    法律是冰冷的文字，法庭是無常的地方，<br class="hidden md:block">
+                    蒼鼎將會以溫暖且專業的態度，做您堅強的後盾，<br class="hidden md:block">
+                    用心傾聽及陪伴您走過這段過程。
+                </p>
+
+                <div class="w-16 h-1 bg-gold mx-auto"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="font-serif text-3xl text-forest text-center mb-12">
+                核心<span class="text-gold">價值</span>
+            </h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Value 1 -->
+                <div class="text-center p-8 rounded-xl hover:bg-ivory transition-colors duration-300">
+                    <div class="w-20 h-20 bg-forest rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl text-forest mb-4">專業</h3>
+                    <p class="text-gray-600">
+                        國立台灣大學法律背景，律師高考及格，豐富的訴訟經驗與專業知識。
+                    </p>
+                </div>
+
+                <!-- Value 2 -->
+                <div class="text-center p-8 rounded-xl hover:bg-ivory transition-colors duration-300">
+                    <div class="w-20 h-20 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-forest" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl text-forest mb-4">溫暖</h3>
+                    <p class="text-gray-600">
+                        用心傾聽每一位當事人的心聲，陪伴您走過法律程序的每一步。
+                    </p>
+                </div>
+
+                <!-- Value 3 -->
+                <div class="text-center p-8 rounded-xl hover:bg-ivory transition-colors duration-300">
+                    <div class="w-20 h-20 bg-forest rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839.741a21.88 21.88 0 001.99-3.741m-4.17-4.43a4 4 0 00-7.68 0" />
+                        </svg>
+                    </div>
+                    <h3 class="font-serif text-xl text-forest mb-4">信任</h3>
+                    <p class="text-gray-600">
+                        多間知名企業指定法律顧問，建立長期穩定的信任關係。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-forest">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-serif text-2xl md:text-3xl text-white mb-6">
+                讓蒼鼎成為您的<span class="text-gold">後盾</span>
+            </h2>
+            <a href="contact.html"
+                class="inline-block bg-gold text-forest px-8 py-4 rounded font-semibold text-lg hover:bg-gold-light transition-colors duration-200 cursor-pointer">
+                立即預約諮詢
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-forest py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <svg class="w-8 h-8 text-gold" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                        <span class="text-gold font-serif text-xl">蒼鼎國際法律事務所</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        用心傾聽及陪伴您走過這段過程，以溫暖且專業的態度，做您堅強的後盾。
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-gold font-semibold mb-4">快速連結</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">關於蒼鼎</a>
+                        </li>
+                        <li><a href="team.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">律師團隊</a>
+                        </li>
+                        <li><a href="services.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">服務項目</a>
+                        </li>
+                        <li><a href="contact.html"
+                                class="text-gray-400 hover:text-gold transition-colors duration-200 text-sm">預約諮詢</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-gold font-semibold mb-4">聯絡資訊</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li>(04) 2254-8977</li>
+                        <li>LINE: @118lebpm</li>
+                        <li>台中市西屯區市政北二路282號14樓之1</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gold/20 pt-8 text-center">
+                <p class="text-gray-500 text-sm">
+                    © 2025 蒼鼎國際法律事務所 CangDing International Law Firm. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
